@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
+
+:root {
+  --primary: #C1121F; /* Vibrant red */
+  --primary-hover: #7d7d7d; /* Neutral hover grey */
+  --footer-bg: #111111; /* Solid black for footer */
+  --text-main: #C1121F;
+  --text-light: #ffffff;
+  --accent-bg: #f6f6f6;
+  --menu-bg: #fff;
+  --font-main: 'Poppins', Arial, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-main);
+  background: var(--accent-bg);
+  margin: 0;
+  color: var(--text-main);
+}
+
+a,
+button,
+.nav-link {
+  color: var(--text-main);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover,
+button:hover,
+.nav-link:hover {
+  color: var(--primary-hover);
+}
+
+footer {
+  background: var(--footer-bg);
+  color: var(--text-light);
+}
+
+.button-primary {
+  background: var(--primary);
+  color: var(--text-light);
+  border: none;
+  padding: 0.75em 2em;
+  border-radius: 0.3em;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.button-primary:hover {
+  background: var(--primary-hover);
+  color: var(--text-light);
+}
+
+nav {
+  background: var(--menu-bg);
+  border-bottom: 1px solid #e3e3e3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-main);
+  font-family: var(--font-main);
+}
+
+.section-accent {
+  background: #fff4f4;
+}
+
+.logo-text {
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 0 #fff, 3px 3px 8px rgba(0,0,0,0.06);
+}
