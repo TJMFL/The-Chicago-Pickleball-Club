@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap');
 
 :root {
-  --primary: #C1121F; /* Vibrant red */
-  --primary-hover: #7d7d7d; /* Neutral hover grey */
-  --footer-bg: #111111; /* Solid black for footer */
-  --text-main: #C1121F;
-  --text-light: #ffffff;
-  --accent-bg: #f6f6f6;
-  --menu-bg: #fff;
+  --primary: #1a582e; /* Vibrant red */
+  --primary-hover: #447517; /* Neutral hover grey */
+  --footer-bg: #322d21; /* Solid black for footer */
+  --text-main: #cedbc8;
+  --text-light: #cedbc8;
+  --accent-bg: #cedbc8;
+  --menu-bg: #447517;
   --font-main: 'Poppins', Arial, sans-serif;
 }
 
@@ -34,18 +34,18 @@ button:hover,
 }
 
 footer {
-  background: var(--footer-bg);
+  background: var(--primary);
   color: var(--text-light);
 }
 
 .button-primary {
   background: var(--primary);
   color: var(--text-light);
-  border: none;
-  padding: 0.75em 2em;
-  border-radius: 0.3em;
+  border: 0.5px solid var(--footer-bg);
+  padding: 0.75em 3em;
+  border-radius: 0.4em;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 2rem;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
 }
@@ -65,13 +65,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-accent {
-  background: #fff4f4;
+  background: #322d21;
 }
 
 .logo-text {
-  color: var(--primary);
+  color: var(--primary-hover);
   font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 2.5rem;
-  text-shadow: 2px 2px 0 #fff, 3px 3px 8px rgba(0,0,0,0.06);
+  letter-spacing: px;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 0 #cedbc8, 3px 3px 8px rgba(0,0,0,0.06);
 }
